@@ -55,6 +55,8 @@
     text-decoration: none;
     color: #fc6006;
   }
+
+  
   
   header,
   footer {
@@ -89,6 +91,7 @@
   }
   
   section {
+    width: 100%;
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
     border-top: 3px solid #65660c;
@@ -130,6 +133,8 @@
    
   /* Class Selectors */
   .picofme{
+    
+    text-align: start;
 
   }
   
