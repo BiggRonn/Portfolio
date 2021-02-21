@@ -6,6 +6,7 @@
   
   /* Element Selectors */
   body {
+    
     position: relative;
     font-family: Arial, Helvetica, sans-serif
     font-size: 20px;
@@ -19,9 +20,8 @@
   }
   
   main {
-      display: flex;
-      justify-content: flex-start;
-      align-content: center;
+      display: block;
+     
     padding: 60px 0;
   }
 
@@ -34,6 +34,7 @@
   }
 
   header h1 {
+    width: 400px;
     padding: 15px;
       
     
