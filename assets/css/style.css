@@ -18,9 +18,7 @@
     margin: 20px;
 
   }
-  h2 {
-    margin: 20px;
-  }
+ 
   header {
     position: fixed;
     top: 0;
@@ -97,8 +95,8 @@
   img {
     height: 250px;
     width: 250px;
-    display: flex;
-    margin: 20px auto;
+    
+    
   }
   
   section {
@@ -175,10 +173,18 @@
   }
 
   #aboutme{
-    display: block;
+    display: flex;
     justify-content: flex-start;
 
 
+  }
+  #aboutme div {
+    width:300px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: #240324;
+    
   }
   
   #contact{
