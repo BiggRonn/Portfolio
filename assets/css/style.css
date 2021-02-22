@@ -42,10 +42,9 @@
       
   }
   
-  nav {
-    display: inline-block;
-    justify-self: flex-end;
-    align-self: center;
+  nav ul li {
+    display: inline;
+    
      
     color: rgb(6, 245, 57);
 
@@ -139,4 +138,25 @@
 
   }
   
+  .intro-image{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-image:url("../images/pexels-lighthouse.jpg") ;
+    
+
+  }
+
+  .intro-image figure{
+    border: #000000;
+    border-style: solid;
+    background-color: #240324;
+    margin: 15px;
+    padding: 5px;
+    font-size: 30px;
+    color: whitesmoke;
+  }
   
