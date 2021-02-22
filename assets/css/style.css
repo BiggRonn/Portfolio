@@ -14,51 +14,62 @@
     color: #4F4846;
   }
   
-  h1,
+  h1{
+    margin: 20px;
+
+  }
   h2 {
     margin: 20px;
   }
-  
-  main {
-      display: block;
-     
-    padding: 60px 0;
-  }
-
   header {
-    display: block;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+      height: 60px;
+      width: 100%;
+      line-height: 60px;
+      background-color: #240324;
+      color: whitesmoke;
     
     
     
     border-bottom: 5px solid #65660c;
   }
 
-  header h1 {
-    width: 400px;
-    padding: 15px;
-      
-    
-      
-      
-  }
+  
   
   nav ul li {
+    margin: 10px;
+    padding: 15px;
+    justify-self: flex-end;
     display: inline;
     
      
-    color: rgb(6, 245, 57);
+   
 
   }
   
   
   a {
     text-decoration: none;
-    color: #fc6006;
+    color: whitesmoke;
+  }
+
+  main {
+      display: block;
+     
+    
   }
 
   
+
   
-  header,
+  
+  
+
   footer {
     height: 60px;
     width: 100%;
@@ -133,8 +144,10 @@
    
   /* Class Selectors */
   .picofme{
-    
+    display: inline;
     text-align: start;
+    
+    
 
   }
   
@@ -151,6 +164,7 @@
   }
 
   .intro-image figure{
+    
     border: #000000;
     border-style: solid;
     background-color: #240324;
@@ -158,5 +172,19 @@
     padding: 5px;
     font-size: 30px;
     color: whitesmoke;
+  }
+
+  #aboutme{
+    display: block;
+    justify-content: flex-start;
+
+
+  }
+  
+  #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
