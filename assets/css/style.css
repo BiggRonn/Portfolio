@@ -199,7 +199,10 @@ h2, h3 {
   }
 
   .projects {
-    display:flex;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
 
@@ -207,8 +210,8 @@ h2, h3 {
   }
 
   .project-cards{
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 600px;
 
     margin: 20px;
     padding: 15px;
@@ -220,6 +223,7 @@ h2, h3 {
     justify-content: flex-start;
     align-items: flex-end;
     flex-grow: 1;
+    flex-shrink: 2;
 
     background-size: cover;
 
@@ -227,16 +231,72 @@ h2, h3 {
 
   }
 
+  .project-preview {
+    height: 120px;
+    width: 150px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    color: #240324;
+
+    background-color:aquamarine;
+    border: 5px;
+    border: solid;
+    border-color: #240324;
+  }
+
   #portfolioRWH{
-    max-width: 400px;
-    flex-grow: 2;
+    height: 400px;
+    width: 400px;
+    
 
     
     
-    background-image: url("../images/pexels-lighthouse.jpg");
+    background-image: url("../images/pexels-hand.jpg");
+  }
 
+  #project2{
+    height: 400px;
+    width: 400px;
+    
 
+    
+    
+    background-image: url("../images/pexels-laptop.jpg");
+  }
 
+  #project3{
+    height: 400px;
+    width: 400px;
+    
+
+    
+    
+    background-image: url("../images/pexels-codegreen.jpg");
+  }
+
+  #project4{
+    height: 400px;
+    width: 400px;
+    
+
+    
+    
+    background-image: url("../images/pexels-hand.jpg");
+  }
+  #project5{
+    height: 400px;
+    width: 400px;
+    
+
+    
+    
+    background-image: url("../images/pexels-codeblue.jpg");
   }
   
   
