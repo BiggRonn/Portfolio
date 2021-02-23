@@ -110,40 +110,7 @@ h2, h3 {
     background-color:  #f7ecd6;
   }
   
-  form {
-    /* Center the form on the page */
-    margin: 25px;
-    width: 500px;
-    padding: 10px;
-    border: 5px solid #65660c;
-    border-radius: 20px;
-    color: #240324;
-  }
-  
-  label {
-    display: inline-block;
-    width: 100px;
-    
-  }
-    
-  input, 
-  textarea {
-    box-sizing: border-box;
-    width: 300px;
-    border: 1px solid #65660c;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 60px;
-  }
-    
-  button {
-    height: 40px;
-    width: 120px;
-    background-color: #4F4846;
-    color: #FDF8F5;
-  }
+ 
    
   /* Class Selectors */
   .picofme{
@@ -315,9 +282,17 @@ h2, h3 {
   
 
   #contact{
+   height: 100px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    text-decoration: underline;
+    color:black;
   }
+
+  #contact ul li {
+    display: inline;
+  }
+
   
