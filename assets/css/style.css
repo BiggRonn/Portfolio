@@ -42,7 +42,6 @@
   nav ul li {
     margin: 10px;
     padding: 15px;
-    justify-self: flex-end;
     display: inline;
     
      
@@ -63,9 +62,10 @@
   }
 
   
-h2 {
+h2, h3 {
   margin: 15px;
-  text-align: center;
+  color:#240324;
+  
 }
   
   
@@ -150,6 +150,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid #240324;
     
     
 
@@ -184,9 +185,10 @@ h2 {
 
 
   }
-  .main-section div {
-    width:300px;
+  .title-card {
+    width: 275px;
     padding: 20px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -194,13 +196,64 @@ h2 {
     
 
     
-  }#aboutme article{
+  }
+
+  .projects {
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+  }
+
+  .project-cards{
+    height: 200px;
+    width: 200px;
+
+    margin: 20px;
+    padding: 15px;
+    border: solid #240324;
+
+    
+
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    margin: 25px;
+    align-items: flex-end;
+    flex-grow: 1;
+
+    background-size: cover;
+
+
+
+  }
+
+  #portfolioRWH{
+    max-width: 400px;
+    flex-grow: 2;
+
+    
+    
+    background-image: url("../images/pexels-lighthouse.jpg");
+
+
+
   }
   
+  
+  #aboutme article{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 25px;
+  }
+  #portfolio nav{
+    display: flex;
+    align-content: flex-start;
+
+  }
+
+  
+
   #contact{
     display: flex;
     flex-direction: column;
