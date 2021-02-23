@@ -177,8 +177,8 @@ h2, h3 {
   }
 
   .project-cards{
-    height: 400px;
-    width: 600px;
+    height: 200px;
+    width: 300px;
 
     margin: 20px;
     padding: 15px;
@@ -219,7 +219,7 @@ h2, h3 {
 
   #portfolioRWH{
     height: 400px;
-    width: 400px;
+    width: 600px;
     
 
     
@@ -228,8 +228,7 @@ h2, h3 {
   }
 
   #project2{
-    height: 400px;
-    width: 400px;
+    
     
 
     
@@ -238,8 +237,6 @@ h2, h3 {
   }
 
   #project3{
-    height: 400px;
-    width: 400px;
     
 
     
@@ -248,8 +245,7 @@ h2, h3 {
   }
 
   #project4{
-    height: 400px;
-    width: 400px;
+    
     
 
     
@@ -257,8 +253,6 @@ h2, h3 {
     background-image: url("../images/pexels-hand.jpg");
   }
   #project5{
-    height: 400px;
-    width: 400px;
     
 
     
