@@ -87,7 +87,8 @@ h2, h3 {
     margin-top: 0;
     bottom: 0;
     border-bottom: 10px solid #4F4846;
-    color: #FDF8F5;    
+    color: whitesmoke;
+    ;    
   }
   
   figure {
@@ -258,14 +259,22 @@ h2, h3 {
    height: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     text-decoration: underline;
     color:black;
   }
 
+  #contact h3{
+    margin: 45px;
+  }
+
   #contact ul li {
+    margin: 15px;
     display: inline;
+  }
+  #contact a{
+    color:#240324;
   }
 
   @media screen and (max-width: 768px){
