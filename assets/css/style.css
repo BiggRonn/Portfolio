@@ -22,7 +22,7 @@
   }
   
   h1{
-    margin: 20px;
+    margin: 17px;
 
   }
  
@@ -296,6 +296,11 @@ h2, h3 {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
+    }
+
+    #portfolio > div{
+      justify-content: flex-start;
+
     }
 
     
