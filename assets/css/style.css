@@ -208,6 +208,11 @@ h2, h3 {
 
   }
 
+  .project-cards:hover{
+    opacity: 75%;
+
+  }
+
   .project-preview {
     height: 120px;
     width: 150px;
