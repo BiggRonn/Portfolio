@@ -220,43 +220,21 @@ h2, h3 {
   #portfolioRWH{
     height: 400px;
     width: 600px;
-    
-
-    
-    
-    background-image: url("../images/pexels-hand.jpg");
+    background-image: url("../images/WebCapRWH.PNG");
   }
 
   #project2{
-    
-    
-
-    
-    
-    background-image: url("../images/pexels-laptop.jpg");
+  background-image: url("../images/pexels-laptop.jpg");
   }
 
   #project3{
-    
-
-    
-    
-    background-image: url("../images/pexels-codegreen.jpg");
+  background-image: url("../images/pexels-codegreen.jpg");
   }
 
   #project4{
-    
-    
-
-    
-    
-    background-image: url("../images/pexels-hand.jpg");
+  background-image: url("../images/pexels-hand.jpg");
   }
   #project5{
-    
-
-    
-    
     background-image: url("../images/pexels-codeblue.jpg");
   }
   
@@ -289,4 +267,8 @@ h2, h3 {
     display: inline;
   }
 
-  
+  @media screen and (max-width: 768px){
+    header {
+      flex-direction: column;
+    }
+  }
