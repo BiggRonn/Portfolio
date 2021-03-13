@@ -4,7 +4,7 @@ This is a working portfolio website, built and updated by Wes Howard. This websi
 ## Deployed Website
 https://biggronn.github.io/PortfolioRWH/
 
-![Picture of deployed site](assets\images\WebCapRWH.PNG)
+!(assets\images\WebCapRWH.PNG)
 
 ## Current Features
 
@@ -14,4 +14,4 @@ links in footer to guide to LinkedIn
 Responsive design
 
 ## Resume
-(assets\Ronald Howard Resume 1.pdf)
+https://github.com/BiggRonn/PortfolioRWH/blob/main/assets/Ronald%20Howard%20Resume%201.pdf

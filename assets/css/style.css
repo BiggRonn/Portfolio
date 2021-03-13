@@ -107,6 +107,8 @@ h2, h3 {
   img {
     height: 250px;
     width: 250px;
+    border-radius: 90px;
+   
     
     
   }
@@ -119,6 +121,9 @@ h2, h3 {
     background-color:  #f7ecd6;
   }
   
+  article{
+    font-size: x-large;
+  }
  
    
   /* Class Selectors */
@@ -127,6 +132,9 @@ h2, h3 {
     justify-content: center;
     align-items: center;
     border: solid var(--darkpurple);
+    border-radius: 5px;
+    background-color: #240324;
+    
     
     
 
@@ -193,6 +201,7 @@ h2, h3 {
     margin: 20px;
     padding: 15px;
     border: solid var(--darkpurple);
+    border-radius: 20px;
 
     
 
@@ -230,6 +239,7 @@ h2, h3 {
     border: 5px;
     border: solid;
     border-color: var(--darkpurple);
+    border-radius: 20px;
   }
 
   #portfolioRWH{
@@ -247,10 +257,10 @@ h2, h3 {
   }
 
   #project4{
-  background-image: url("../images/WebCapRWH.PNG");
+  background-image: url("../images/pexels-hand.jpg");
   }
   #project5{
-    background-image: url("");
+    background-image: url("assets\images\PortfCap.PNG");
   }
   
   
