@@ -235,7 +235,7 @@ h2, h3 {
   #portfolioRWH{
     height: 400px;
     width: 100%;
-    background-image: url("../images/WebCapRWH.PNG");
+    background-image: url("../images/pexels-electric.jpg");
   }
 
   #project2{
@@ -247,10 +247,10 @@ h2, h3 {
   }
 
   #project4{
-  background-image: url("../images/pexels-hand.jpg");
+  background-image: url("../images/WebCapRWH.PNG");
   }
   #project5{
-    background-image: url("../images/pexels-codeblue.jpg");
+    background-image: url("");
   }
   
   
